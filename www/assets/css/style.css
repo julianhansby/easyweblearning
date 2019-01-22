@@ -876,8 +876,11 @@ textarea::-ms-input-placeholder{
 Nav Menu style
 ==================*/
 
+.navbar-default .navbar-brand { color:#fddc57 }
+
 .navbar-brand {
     padding: 30px 15px;
+    font-weight: bold;
 }
 nav.navbar.bootsnav ul.nav li.active > a{
     color:#fddc57;
