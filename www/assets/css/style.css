@@ -879,9 +879,10 @@ Nav Menu style
 .navbar-default .navbar-brand { color:#fddc57 }
 
 .navbar-brand {
-    padding: 30px 15px;
+    padding: 0 15px;
     font-weight: bold;
 }
+.navbar-brand > img { max-width: 120px }
 nav.navbar.bootsnav ul.nav li.active > a{
     color:#fddc57;
 }
@@ -897,21 +898,21 @@ Home Section style
 ==================*/
 
 .home{
-    background: url(../images/main_bg_image.jpg) no-repeat top center;
+    background: url(../images/main_bg_image_v2.png) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 300px;
+    padding-top: 10%;
     padding-bottom: 320px;
     width:100%;
 }
-.home_text h1{
-    font-size:100px;
+.home_text h1 {
+    font-size: 5em;
     font-family: 'Kaushan Script', cursive;
-    margin-bottom:20px;
-    line-height: 105px;
+    margin-bottom: 2%;
+    line-height: 1em;
 }
-.home_text h3{
-    font-size:24px;
+.home_text h3 {
+    font-size: 1.3em;
     font-family: 'Montserrat', sans-serif;
 
 }
