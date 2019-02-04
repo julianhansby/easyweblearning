@@ -28,7 +28,6 @@ jQuery( document ).ready( function ( $ ) {
     } );
 
 
-
     /*---------------------------------------------*
      * WOW
      ---------------------------------------------*/
@@ -165,5 +164,22 @@ $( function () {
 
 } );
 
+    // youtube video URL
+    let vidURL1 = `https://www.youtube.com/embed/6e6Sf7UlkS0?rel=0&autoplay=1`;
+    let vidURL2 = `https://www.youtube.com/embed/6e6Sf7UlkS0?rel=0`;
 
+    // view intro video
+    $(".view_intro_video").click(function(e){
+        e.preventDefault();
+        $(".intro_video").attr("src",vidURL1);
+        $(".intro_video").slideDown(function(){
+            $(".close_video").show();
+        });
+    });
 
+    $(".close_video").click(function(){
+        $(".intro_video").slideUp(function(){
+            $(".close_video").hide();
+            $(this).attr("src",vidURL2);
+        });
+    })

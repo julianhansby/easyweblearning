@@ -117,21 +117,20 @@
                     <div class="row">
                         <div class="main_home text-center">
                             <div class="col-md-12">
+                                <div class="close_video">X</div>
+                                <iframe class="intro_video" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <div class="hello">
                                     <div class="slid_item">
                                         <div class="home_text ">
                                             <h1 class="text-yellow">Welcome to Easy Web Learning</h1>
                                             <h3 class="text-white text-uppercase">Web programming made so easy even a child can learn how to do it.</h3>
-                                            <a href="#" class="btn btn-primary">View intro video</a>
+                                            <a href="#" class="btn btn-primary view_intro_video">View intro video</a>
                                         </div>
                                     </div><!-- End off slid item -->
 
                                 </div>
                             </div>
-
                         </div>
-
-
                         <a class="mouse-scroll" href="#about"> 
                             <span class="mouse">
                                 <span class="mouse-movement"></span>
@@ -139,7 +138,6 @@
                             <span class="mouse-message fadeIn">Explore</span> <br />
                             <!--<i class="fa fa-angle-down m-top-10 fadeIn mouse-message"></i>--> 
                         </a>
-
                     </div><!--End off row-->
                 </div><!--End off container -->
             </section> <!--End off Home Sections-->
@@ -336,6 +334,14 @@
                                         <h6><i class="fa fa-check-square-o"></i> The whole family in one classroom.</h6>
                                         <p>Mom, dad, brother and sister can all learn together, in their own time. </p>
                                     </div>
+                                    <div class="choose_item_text fix m-top-20">
+                                        <h6><i class="fa fa-check-square-o"></i> Free weekly webinars.</h6>
+                                        <p>We provide answers to any web related question you might have on a weekly basis, via a free webinar on our facebook page.</p>
+                                    </div>
+                                    <div class="choose_item_text fix m-top-20">
+                                        <h6><i class="fa fa-check-square-o"></i> We give away free stuff.</h6>
+                                        <p>To build and strengthen our relationship with our students we give away online shopping vouchers, subscriptions and more, from time to time.</p>
+                                    </div>                                                                          
                                     <!--<div class="choose_item_text fix m-top-20">
                                         <h6><i class="fa fa-check-square-o"></i> Cost effective.</h6>
                                         <p>The whole family can learn. </p>
@@ -390,11 +396,12 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="main_about text-center">
-                                <h1 class="text-black">Learn to code for the price of a bread & milk </h1>
-                                <h2 class="text-white">- & -</h2>
-                                <h3 class="text-black text-uppercase">maybe a few eggs</h3>
-
-                                <a href="/course-videos/" class="btn btn-primary m-top-100">View course content</a>
+                                <h1 class="text-black">Check out our free tutorial below</h1>
+                                <a href="/course-videos/" class="btn btn-primary m-top-30">View video tutorial</a>
+                                <h2 class="text-white m-top-30">- THEN -</h2>
+                                <h3 class="text-black text-uppercase">Learn to code for the price of a bread & milk</h3>
+                                <p class="m-top-30">Pricing will be avaiable soon...watch this space!</p>
+                                <!--<a href="/course-videos/" class="btn btn-primary m-top-100">View course content</a>-->
                             </div>
                         </div>
                     </div>
