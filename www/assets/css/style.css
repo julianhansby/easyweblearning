@@ -53,6 +53,10 @@ body {
     Page Content
 ------------------------------------------*/
 
+.col-md-3 {
+    width: 33%;
+}
+
 .page-content, 
 section { overflow: hidden; }
 
@@ -901,8 +905,7 @@ Home Section style
     background: url(../images/main_bg_image_v2.png) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 10%;
-    padding-bottom: 320px;
+    padding: 13% 0 ;
     width:100%;
 }
 .home_text h1 {
@@ -1513,3 +1516,5 @@ tems Section style
     padding: 0px 5px;
     color: #ff0000;
 }
+
+.footer { padding-bottom: 5% }

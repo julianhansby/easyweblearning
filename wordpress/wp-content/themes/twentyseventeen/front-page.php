@@ -98,12 +98,6 @@
 
 
                 <div class="container"> 
-                    <!--
-                    <div class="attr-nav">
-                        <ul>
-                            <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-                        </ul>
-                    </div>--> 
 
                     <!-- Start Header Navigation -->
                     <div class="navbar-header">
@@ -167,27 +161,6 @@
                 </div><!--End off container -->
             </section> <!--End off Home Sections-->
 
-
-
-            <!--About Section-->
-            <section id="about" class="about bg-yellow roomy-80">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="main_about text-center">
-                                <h1 class="text-black">Made is design studio based on London </h1>
-                                <h2 class="text-white">- & -</h2>
-                                <h3 class="text-black text-uppercase">We love to design a website and the other awesome graphic</h3>
-
-                                <a href="/course-videos/" class="btn btn-primary m-top-100">View course content</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-
             <!--Featured Section-->
             <section id="features" class="features bg-white">
                 <div class="container">
@@ -245,6 +218,22 @@
                 </div><!-- End off container -->
             </section><!-- End off Featured Section-->
 
+            <!--About Section-->
+            <section id="about" class="about bg-yellow roomy-80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="main_about text-center">
+                                <h1 class="text-black">Learn to code for the price of a bread & milk </h1>
+                                <h2 class="text-white">- & -</h2>
+                                <h3 class="text-black text-uppercase">maybe a few eggs</h3>
+
+                                <a href="/course-videos/" class="btn btn-primary m-top-100">View course content</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <!--Business Section-->
             <section id="service" class="service bg-grey roomy-70">
@@ -284,7 +273,7 @@
             </section><!-- End off Business section -->
 
 
-            <!--Team And Skill Section-->
+            <!--Team And Skill Section
             <section id="teams" class="teams roomy-80">
                 <div class="container">
                     <div class="row">
@@ -310,8 +299,7 @@
                                             <ul class="list-inline">
                                                 <li><a href="https://www.linkedin.com/in/julian-hansby-53b50295/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                                             </ul>
-                                        </div><!-- End off col-md-4 -->
-                                        <!--
+                                        </div>
                                         <div class="col-sm-4">
                                             <img src="assets/images/team2.jpg" alt="" class="img-circle" />
                                             <h4 class="m-top-20">Sarah <strong>Smith</strong></h4>
@@ -322,8 +310,8 @@
                                                 <li><a href=""><i class="fa fa-twitter"></i></a></li>
                                                 <li><a href=""><i class="fa fa-dribbble"></i></a></li>
                                             </ul>
-                                        </div> End off col-md-4 -->
-                                        <!--
+                                        </div> 
+                                        
                                         <div class="col-sm-4">
                                             <img src="assets/images/team3.jpg" alt="" class="img-circle" />
                                             <h4 class="m-top-20">Fabian <strong>Doe</strong></h4>
@@ -334,11 +322,11 @@
                                                 <li><a href=""><i class="fa fa-twitter"></i></a></li>
                                                 <li><a href=""><i class="fa fa-dribbble"></i></a></li>
                                             </ul>
-                                        </div> End off col-md-4 -->
+                                        </div> 
                                     </div>
                                 </div>
-                            </div><!-- End off col-md-6 -->
-                        </div><!-- End off main Team -->
+                            </div>
+                        </div>
 
                         <div class="col-md-12">
                             <div class="skill">
@@ -348,33 +336,33 @@
                                             <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="80%">
                                                 <label>HTML</label>
                                                 <div class="teamskillbar-bar" style="width: 80%;"></div>
-                                            </div> <!-- End Skill Bar -->
+                                            </div> 
 
                                             <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="75%">
                                                 <label>CSS</label>
                                                 <div class="teamskillbar-bar" style="width: 75%;"></div>
-                                            </div> <!-- End Skill Bar -->
+                                            </div> 
                                         </div>
 
                                         <div class="col-sm-6">
                                             <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="90%">
                                                 <label>Javascript</label>
                                                 <div class="teamskillbar-bar" style="width: 90%;"></div>
-                                            </div> <!-- End Skill Bar -->
+                                            </div> 
 
                                             <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="98%">
                                                 <label>Web Development</label>
                                                 <div class="teamskillbar-bar" style="width: 98%;"></div>
-                                            </div> <!-- End Skill Bar -->
+                                            </div> 
                                         </div>
 
                                     </div>
                                 </div>
-                            </div><!-- End off skill -->
-                        </div><!-- End col-md-12 -->
-                    </div><!-- End off row -->
-                </div><!-- End off container -->
-            </section><!-- End off Team & Skill section -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> End off Team & Skill section -->
 
 
             <!--Choose section-->
@@ -433,107 +421,28 @@
                 <div class="container">
                     <div class="row">
                         <div class="widget_area">
+
                             <div class="col-md-3">
                                 <div class="widget_item widget_about">
                                     <h5 class="text-white">About Us</h5>
                                     <p class="m-top-30">We are people passionate about web development, aiming to teach as many people possible, about web programming.</p>
-                                    
-                                    <!--<div class="widget_ab_item m-top-30">
-                                        <div class="item_icon"><i class="fa fa-location-arrow"></i></div>
-                                        <div class="widget_ab_item_text">
-                                            <h6 class="text-white">Location</h6>
-                                            <p>
-                                                123 suscipit ipsum nam auctor
-                                                mauris dui, ac sollicitudin mauris,
-                                                Bandung</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="widget_ab_item m-top-30">
-                                        <div class="item_icon"><i class="fa fa-phone"></i></div>
-                                        <div class="widget_ab_item_text">
-                                            <h6 class="text-white">Phone :</h6>
-                                            <p>+1 2345 6789</p>
-                                        </div>
-                                    </div>-->
-                                    <div class="widget_ab_item m-top-30">
-                                        <div class="item_icon"><i class="fa fa-envelope-o"></i></div>
-                                        <div class="widget_ab_item_text">
-                                            <h6 class="text-white">Email Address :</h6>
-                                            <p>info@easyweblearning.co.za</p>
-                                        </div>
-                                    </div>
-                                </div><!-- End off widget item -->
-                            </div><!-- End off col-md-3 -->
-                            <!--
-                            <div class="col-md-3">
-                                <div class="widget_item widget_latest sm-m-top-50">
-                                    <h5 class="text-white">Latest News</h5>
-                                    <div class="widget_latst_item m-top-30">
-                                        <div class="item_icon"><img src="assets/images/ltst-img-1.jpg" alt="" /></div>
-                                        <div class="widget_latst_item_text">
-                                            <p>Lorem ipsum dolor sit amet, consectetur</p>
-                                            <a href="">21<sup>th</sup> July 2016</a>
-                                        </div>
-                                    </div>
-                                    <div class="widget_latst_item m-top-30">
-                                        <div class="item_icon"><img src="assets/images/ltst-img-2.jpg" alt="" /></div>
-                                        <div class="widget_latst_item_text">
-                                            <p>Lorem ipsum dolor sit amet, consectetur</p>
-                                            <a href="">21<sup>th</sup> July 2016</a>
-                                        </div>
-                                    </div>
-                                    <div class="widget_latst_item m-top-30">
-                                        <div class="item_icon"><img src="assets/images/ltst-img-3.jpg" alt="" /></div>
-                                        <div class="widget_latst_item_text">
-                                            <p>Lorem ipsum dolor sit amet, consectetur</p>
-                                            <a href="">21<sup>th</sup> July 2016</a>
-                                        </div>
-                                    </div>
                                 </div>
-                            </div> End off col-md-3 -->
-                            <!--
+                            </div>
+ 
                             <div class="col-md-3">
-                                <div class="widget_item widget_service sm-m-top-50">
-                                    <h5 class="text-white">Latest News</h5>
-                                    <ul class="m-top-20">
-                                        <li class="m-top-20"> <a href="#"><i class="fa fa-angle-right"></i> Web Design</a></li>
-                                        <li class="m-top-20"> <a href="#"><i class="fa fa-angle-right"></i> User Interface Design</a></li>
-                                        <li class="m-top-20"> <a href="#"><i class="fa fa-angle-right"></i> Web Hosting</a></li>
-                                        <li class="m-top-20"> <a href="#"><i class="fa fa-angle-right"></i> Themes</a></li>
-                                        <li class="m-top-20"> <a href="#"><i class="fa fa-angle-right"></i> Support Forums</a></li>
-                                    </ul>
-
+                                <div class="widget_item widget_about">
+                                    <h5 class="text-white">Email address</h5>
+                                    <p class="m-top-30">info@easyweblearning.co.za</p>
                                 </div>
-                            </div> End off col-md-3 -->
+                            </div>
 
                             <div class="col-md-3">
-                                <div class="widget_item widget_newsletter sm-m-top-50">
-                                    <h5 class="text-white">Newsletter</h5>
-                                    <form class="form-inline m-top-30">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Enter you Email">
-                                            <button type="submit" class="btn text-center"><i class="fa fa-arrow-right"></i></button>
-                                        </div>
+                                <div class="widget_item widget_about">
+                                    <h5 class="text-white">Social Media</h5>
+                                    <p class="m-top-30"><a href="https://www.facebook.com/Easy-Web-Learning-305871990062611" target="_blank"><i class="fa fa-facebook"></i></a></p>
+                                </div>
+                            </div>
 
-                                    </form>
-                                    <!--
-                                    <div class="widget_brand m-top-40">
-                                        <a href="" class="text-uppercase">Your Logo</a>
-                                        <p>Lorem ipsum dolor sit amet consec tetur 
-                                            adipiscing elit nulla aliquet pretium nisi in</p>
-                                    </div>-->
-                                    <ul class="list-inline m-top-20">
-                                        <li>-  <a href="https://www.facebook.com/Easy-Web-Learning-305871990062611" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                        <!--<li><a href=""><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                                        <li><a href=""><i class="fa fa-behance"></i></a></li>
-                                        <li><a href=""><i class="fa fa-dribbble"></i></a>  - </li>-->
-                                    </ul>
-
-                                </div><!-- End off widget item -->
-                            </div><!-- End off col-md-3 -->
                         </div>
                     </div>
                 </div>

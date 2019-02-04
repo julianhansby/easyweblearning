@@ -49,7 +49,8 @@ function twentyseventeen_time_link() {
 	return sprintf(
 		/* translators: %s: post date */
 		__( '<span class="screen-reader-text">Posted on</span> %s', 'twentyseventeen' ),
-		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
+		''
+		// <a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>
 	);
 }
 endif;

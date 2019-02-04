@@ -2111,6 +2111,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .single-featured-image-header {
 	background-color: #fafafa;
 	border-bottom: 1px solid #eee;
+	display: none;
 }
 
 .single-featured-image-header img {
@@ -3780,7 +3781,7 @@ p > object:only-child {
 	}
 
 	.page-two-column .panel-content .entry-content {
-		float: right;
+		float: left;
 		width: 58%;
 	}
 
@@ -3870,7 +3871,7 @@ p > object:only-child {
 	.error404.has-sidebar #primary .page-content,
 	body.page-two-column:not(.archive) #primary .entry-content,
 	body.page-two-column #comments {
-		float: right;
+		float: left;
 		width: 58%;
 	}
 

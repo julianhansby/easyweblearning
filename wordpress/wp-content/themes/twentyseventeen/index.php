@@ -15,9 +15,8 @@
  * @version 1.0
  */
 
-get_header(); ?>
+/* 
 
-<div class="wrap">
     <?php if ( is_home() && ! is_front_page() ) : ?>
         <header class="page-header">
             <h1 class="page-title"><?php single_post_title(); ?></h1>
@@ -27,6 +26,11 @@ get_header(); ?>
         <h2 class="page-title"><?php _e( 'Posts', 'twentyseventeen' ); ?></h2>
     </header>
     <?php endif; ?>
+*/
+
+get_header(); ?>
+
+<div class="wrap">
 
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">

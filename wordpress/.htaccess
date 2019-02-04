@@ -1,0 +1,40 @@
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+	# Disable XML-RPC - Security > Settings > WordPress Tweaks > XML-RPC
+	<files xmlrpc.php>
+		<IfModule mod_authz_core.c>
+			Require all denied
+		</IfModule>
+		<IfModule !mod_authz_core.c>
+			Order allow,deny
+			Deny from all
+		</IfModule>
+	</files>
+
+	<IfModule mod_rewrite.c>
+		RewriteEngine On
+
+		# Reduce Comment Spam - Security > Settings > WordPress Tweaks > Comment Spam
+		RewriteCond %{REQUEST_METHOD} POST
+		RewriteCond %{REQUEST_URI} /wp-comments-post\.php$
+		RewriteCond %{HTTP_USER_AGENT} ^$ [OR]
+		RewriteCond %{HTTP_REFERER} !^https?://(([^/]+\.)?co\.za|jetpack\.wordpress\.com/jetpack-comment)(/|$) [NC]
+		RewriteRule ^.* - [F]
+	</IfModule>
+# END iThemes Security - Do not modify or remove this line
+
+RewriteEngine on 
+RewriteCond %{HTTPS} !=on [NC] 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
