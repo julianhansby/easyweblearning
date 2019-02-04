@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <title>EasyWebLearning</title>
         <meta name="description" content="An easy way to learn how to do web programming in South Africa. We aim to teach kids, parents and siblings to learn to code websites and web applications for a very cheap and affordable price.">
-        <meta name="keywords" content="South Africa, Web Development, Programming, HTML, CSS, Javascript">
+        <meta name="keywords" content="South Africa, Learning, Online Education, Web Development, Programming, HTML fundamentals, CSS, Javascript fundamentals">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
@@ -18,7 +18,6 @@
         <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
-
         <link rel="stylesheet" href="assets/css/slick.css"> 
         <link rel="stylesheet" href="assets/css/slick-theme.css">
         <link rel="stylesheet" href="assets/css/animate.css">
@@ -27,18 +26,12 @@
         <link rel="stylesheet" href="assets/css/bootstrap.css">
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
         <link rel="stylesheet" href="assets/css/bootsnav.css">
-
-
-
         <!--For Plugins external css-->
         <link rel="stylesheet" href="assets/css/plugins.css" />
-
         <!--Theme custom css -->
         <link rel="stylesheet" href="assets/css/style.css">
-
         <!--Theme Responsive css-->
         <link rel="stylesheet" href="assets/css/responsive.css" />
-
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
         <!-- Facebook Pixel Code -->
@@ -58,13 +51,9 @@
           src="https://www.facebook.com/tr?id=288099365236482&ev=PageView&noscript=1"
         /></noscript>
         <!-- End Facebook Pixel Code -->
-
-        
     </head>
 
     <body data-spy="scroll" data-target=".navbar-collapse" data-offset="100">
-
-
         <!-- Preloader -->
         <div id="loading">
             <div id="loading-center">
@@ -76,12 +65,8 @@
                 </div>
             </div>
         </div><!--End off Preloader -->
-
-
         <div class="culmn">
             <!--Home page style-->
-
-
             <nav class="navbar navbar-default bootsnav navbar-fixed no-background white">
 
                 <!-- Start Top Search -->
@@ -96,9 +81,7 @@
                 </div>
                 <!-- End Top Search -->
 
-
                 <div class="container"> 
-
                     <!-- Start Header Navigation -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
@@ -115,20 +98,19 @@
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#home">Home</a></li>                    
-                            <li><a href="#features">About</a></li>
+                            <li><a href="#about">About</a></li>
                             <li><a href="#service">Service</a></li>
                             <!--<li><a href="#portfolio">Portfolio</a></li>
                             <li><a href="#test">Testimonial</a></li>-->
+                            <li><a href="#pricing">Pricing</a></li>
                             <li><a href="#contact">Contact</a></li>
                             <li><a href="/membership-login">Login</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
-                </div> 
-
+                </div>
             </nav>
 
             <!--Home Sections-->
-
             <section id="home" class="home bg-black fix">
                 <div class="overlay"></div>
                 <div class="container">
@@ -140,6 +122,7 @@
                                         <div class="home_text ">
                                             <h1 class="text-yellow">Welcome to Easy Web Learning</h1>
                                             <h3 class="text-white text-uppercase">Web programming made so easy even a child can learn how to do it.</h3>
+                                            <a href="#" class="btn btn-primary">View intro video</a>
                                         </div>
                                     </div><!-- End off slid item -->
 
@@ -161,8 +144,8 @@
                 </div><!--End off container -->
             </section> <!--End off Home Sections-->
 
-            <!--Featured Section-->
-            <section id="features" class="features bg-white">
+            <!--About Us Section-->
+            <section id="about" class="features bg-white">
                 <div class="container">
                     <div class="row">
                         <div class="main_features fix roomy-70">
@@ -173,9 +156,9 @@
                                         <h2 class="text-uppercase">Why teach <strong>web programming?</strong></h2>
                                     </div>
                                     <div class="featured_content">
-                                        <p>We realize that there is a great need to teach people (especially kids) to learn the basics of web programming. There are so many benefits attached to learning how to program and opens up so many doors. From learning to code for fun, to using web programming skills for financial gain. Its a WIN WIN all the way.</p>
+                                        <p>We realize that there is a great need to teach people (especially kids) to learn the basics of web programming. There are so many benefits attached to learning how to program. From learning how to code for fun to using web programming skills for financial gain, the demand for web developers increase every year so there is no reason why we should not do this.</p>
 
-                                        <a href="" class="btn btn-default m-top-40">Read More</a>
+                                        <!--<a href="" class="btn btn-default m-top-40">Read More</a>-->
                                     </div>
                                 </div>
                             </div>
@@ -188,90 +171,40 @@
                                         <div class="col-xs-6">
                                             <div class="features_item_text">
                                                 <img src="assets/images/featured1.jpg" alt="" class="img-circle" />
-                                                <p class="m-top-20">Trending Design</p>
+                                                <p class="m-top-20">Empower Kids</p>
                                             </div>
                                         </div>
                                         <div class="col-xs-6">
                                             <div class="features_item_text">
                                                 <img src="assets/images/featured2.jpg" alt="" class="img-circle" />
-                                                <p class="m-top-20">Easy to Customize</p>
+                                                <p class="m-top-20">Financial Benefits</p>
                                             </div>
                                         </div>
                                         <div class="col-xs-6">
                                             <div class="features_item_text m-top-50">
                                                 <img src="assets/images/featured3.jpg" alt="" class="img-circle" />
-                                                <p class="m-top-20">Responsive Design</p>
+                                                <p class="m-top-20">Tech know-how</p>
                                             </div>
                                         </div>
                                         <div class="col-xs-6">
                                             <div class="features_item_text m-top-50">
                                                 <img src="assets/images/featured4.jpg" alt="" class="img-circle" />
-                                                <p class="m-top-20">Free Google Font</p>
+                                                <p class="m-top-20">Demand & Supply</p>
                                             </div>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
+                            <!-- hidden read more content 
+                            <div class="readmore-content">
+                                When we started this idea a few years ago the dream was to have physical classrooms all over the show...almost like a walk-in building where kids and adults could come and sit at a computer and have experts teach them, while not having to pay an arm and a leg for it. From there the idea ev
+                            </div>-->
+
                         </div>
                     </div><!-- End off row -->
                 </div><!-- End off container -->
             </section><!-- End off Featured Section-->
-
-            <!--About Section-->
-            <section id="about" class="about bg-yellow roomy-80">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="main_about text-center">
-                                <h1 class="text-black">Learn to code for the price of a bread & milk </h1>
-                                <h2 class="text-white">- & -</h2>
-                                <h3 class="text-black text-uppercase">maybe a few eggs</h3>
-
-                                <a href="/course-videos/" class="btn btn-primary m-top-100">View course content</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--Business Section-->
-            <section id="service" class="service bg-grey roomy-70">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_service">
-                            <div class="col-md-6">
-                                <div class="service_slid">
-                                    <div class="slid_shap bg-yellow"></div>
-                                    <div class="service_slid_item text-center">
-                                        <div class="service_slid_text">
-                                            <span class="icon icon icon-tools text-black"></span>
-                                            <h5 class="text-black m-top-20">UI/UX Design</h5>
-                                        </div>
-                                        <div class="service_slid_text">
-                                            <span class="icon icon icon-sports-2 text-black"></span>
-                                            <h5 class="text-black m-top-20">UI/UX Design</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-md-offset-1">
-                                <div class="service_item sm-m-top-50">
-                                    <div class="head_title">
-                                        <h2 class="text-uppercase">Our <strong>Service</strong></h2>
-                                    </div>
-                                    <div class="service_content">
-                                        <p>So in a nutshell, we will be teaching you the three basic languages of the web: HTML, CSS and Javascript. We have created short, easy to understand lessons so things remain simple. We not only teach you how to program but also provide industry standard tips, news, guidance and practical ways of using your new found skills to create websites on your own, for fun or for financial gain.</p>
-
-                                        <!--<a href="" class="btn btn-default m-top-40">Read More</a>-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section><!-- End off Business section -->
-
 
             <!--Team And Skill Section
             <section id="teams" class="teams roomy-80">
@@ -414,9 +347,61 @@
                 </div><!-- End off container -->
             </section><!-- End off choose section -->
 
+            <!--Services Section-->
+            <section id="service" class="service bg-white roomy-70">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_service">
+                            <div class="col-md-6">
+                                <div class="service_slid">
+                                    <div class="slid_shap bg-yellow"></div>
+                                    <div class="service_slid_item text-center">
+                                        <div class="service_slid_text">
+                                            <span class="icon icon icon-tools text-black"></span>
+                                            <h5 class="text-black m-top-20">UI/UX Design</h5>
+                                        </div>
+                                        <div class="service_slid_text">
+                                            <span class="icon icon icon-sports-2 text-black"></span>
+                                            <h5 class="text-black m-top-20">UI/UX Design</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 col-md-offset-1">
+                                <div class="service_item sm-m-top-50">
+                                    <div class="head_title">
+                                        <h2 class="text-uppercase">Our <strong>Service</strong></h2>
+                                    </div>
+                                    <div class="service_content">
+                                        <p>So in a nutshell, we will be teaching you the three basic languages of the web: HTML, CSS and Javascript. We have created short, easy to understand lessons so things remain simple. We not only teach you how to program but also provide industry standard tips, news, guidance and practical ways of using your new found skills to create websites on your own, for fun or for financial gain.</p>
 
-            <!--Portfolio Section-->
+                                        <!--<a href="" class="btn btn-default m-top-40">Read More</a>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- End off Business section -->            
 
+            <!--Pricing Section-->
+            <section id="pricing" class="about bg-yellow roomy-80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="main_about text-center">
+                                <h1 class="text-black">Learn to code for the price of a bread & milk </h1>
+                                <h2 class="text-white">- & -</h2>
+                                <h3 class="text-black text-uppercase">maybe a few eggs</h3>
+
+                                <a href="/course-videos/" class="btn btn-primary m-top-100">View course content</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Footer Section-->
             <footer id="contact" class="footer action-lage bg-black p-top-80">
                 <div class="container">
                     <div class="row">
@@ -447,17 +432,11 @@
                     </div>
                 </div>
             </footer>
-
-
-
-
         </div>
 
         <!-- JS includes -->
-
         <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
         <script src="assets/js/vendor/bootstrap.min.js"></script>
-
         <script src="assets/js/jquery.magnific-popup.js"></script>
         <!--<script src="assets/js/jquery.easypiechart.min.js"></script>-->
         <script src="assets/js/jquery.easing.1.3.js"></script>
@@ -466,13 +445,17 @@
         <script src="assets/js/js.isotope.js"></script>
         <script src="assets/js/jquery.collapse.js"></script>
         <script src="assets/js/bootsnav.js"></script>
-
         <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132841812-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-
-
+          gtag('config', 'UA-132841812-1');
+        </script>
     </body>
 </html>
