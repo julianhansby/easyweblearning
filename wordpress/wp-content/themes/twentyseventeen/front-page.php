@@ -22,7 +22,8 @@
         <link rel="stylesheet" href="assets/css/slick-theme.css">
         <link rel="stylesheet" href="assets/css/animate.css">
         <link rel="stylesheet" href="assets/css/iconfont.css">
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <!--<link rel="stylesheet" href="assets/css/font-awesome.min.css">-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/bootstrap.css">
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
         <link rel="stylesheet" href="assets/css/bootsnav.css">
@@ -400,8 +401,41 @@
                                 <a href="/course-videos/" class="btn btn-primary m-top-30">View video tutorial</a>
                                 <h2 class="text-white m-top-30">- THEN -</h2>
                                 <h3 class="text-black text-uppercase">Learn to code for the price of a bread & milk</h3>
-                                <p class="m-top-30">Pricing will be avaiable soon...watch this space!</p>
-                                <!--<a href="/course-videos/" class="btn btn-primary m-top-100">View course content</a>-->
+                                <!--<p class="m-top-30">Pricing will be available soon...watch this space!</p>
+                                <a href="/course-videos/" class="btn btn-primary m-top-100">View course content</a>-->
+
+                                <div class="col-md-3 products">
+                                    <div class="title text-black">R55 per month</div>
+                                    <ul>
+                                        <li>Access to ALL video content <i class="fas fa-check-circle"></i></li>
+                                        <li>Free access to weekly webinar <i class="fas fa-check-circle"></i></li>
+                                        <li>Win FREE vouchers <i class="fas fa-check-circle"></i></li>
+                                        <li>&nbsp;</li>
+                                    </ul>
+                                    <a href="/membership-account/membership-checkout/?level=1" class="btn btn-secondary">Buy now</a>
+                                </div>
+                                <div class="col-md-3 products">
+                                    <div class="title text-black">R499 for the year</div>
+                                    <ul>
+                                        <li>Access to ALL video content <i class="fas fa-check-circle"></i></li>
+                                        <li>Free access to weekly webinar <i class="fas fa-check-circle"></i></li>
+                                        <li>Win FREE vouchers <i class="fas fa-check-circle"></i></li>
+                                        <li>Save R160 <i class="fas fa-check-circle"></i></li>
+                                    </ul>
+                                    <a href="/membership-account/membership-checkout/?level=2" class="btn btn-secondary">Buy now</a>                                    
+                                </div>
+                                <div class="col-md-3 products">
+                                    <div class="title text-black">R89 Masterclass</div>
+                                    <ul>
+                                        <li>Once-off 2 hour lesson <i class="fas fa-check-circle"></i></li>
+                                        <li>Lesson available for 24 hours <i class="fas fa-check-circle"></i></li>
+                                        <li>Free weekly webinar <i class="fas fa-check-circle"></i></li>
+                                        <li>Inc 1 month free subscription <i class="fas fa-check-circle"></i></li>
+                                    </ul>
+                                    <a href="/membership-account/membership-checkout/?level=3" class="btn btn-secondary">Buy now</a>                                    
+                                </div>
+
+
                             </div>
                         </div>
                     </div>

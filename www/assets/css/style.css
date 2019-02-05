@@ -20,6 +20,7 @@ Author URI: http://bootstrapthemes.co
  12. THU BLOG - LINE NO 1848
  13. THU SUBCRIBS - LINE NO 1935
  14. FOOTER - LINE NO 2020
+ 15. PRODUCTS (julian custom)
 ==========================================*/
 
 
@@ -1551,3 +1552,61 @@ tems Section style
 }
 
 .footer { padding-bottom: 5% }
+
+.products {
+    min-width: 250px;
+    background-color: white;
+    margin: 30px 1%;
+    width: 100%;
+    border-radius: 6px;
+    padding: 4%;
+    min-height: 370px;
+    position: relative;
+    max-width: 350px;
+    float: left;
+}
+
+    @media (max-width: 1000px) and (min-width: 481px){
+       .products {
+            margin: 30px auto;
+            float: none;        
+       } 
+    }
+
+    @media screen and (max-width: 480px){
+       .products {
+            width: 98%;
+            max-width: 100%;         
+       } 
+    }
+
+    .products:hover {
+        -webkit-box-shadow: 5px 4px 3px -3px rgba(000,000,000,0.4);
+        -moz-box-shadow:    5px 4px 3px -3px rgba(000,000,000,0.4);
+        box-shadow:         5px 4px 3px -3px rgba(000,000,000,0.4);        
+    }
+
+    .products .title {
+        font-size: 2em;
+        margin-bottom: 4%;
+    }
+    .products .fas {
+        color: green;
+        position: absolute;
+        right: 0;
+    }
+
+    .products ul { padding: 4% 0 }
+    .products ul li {
+        border-top: 1px dotted;
+        padding: 12px 10px;
+        text-align: left;
+        position: relative;
+    }
+
+    .products a {
+        background-color: green;
+        color: white;
+    }
+
+        .products a:hover { color: white }
