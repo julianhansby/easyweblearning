@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <title>EasyWebLearning</title>
         <meta name="description" content="An easy way to learn how to do web programming in South Africa. We aim to teach kids, parents and siblings to learn to code websites and web applications for a very cheap and affordable price.">
-        <meta name="keywords" content="South Africa, Learning, Online Education, Web Development, Programming, HTML fundamentals, CSS, Javascript fundamentals">
+        <meta name="keywords" content="South Africa, Learning, Online Education, Web Development, Programming, HTML, CSS, Javascript, Cape Town">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
@@ -124,7 +124,7 @@
                                     <div class="slid_item">
                                         <div class="home_text ">
                                             <h1 class="text-yellow">Welcome to Easy Web Learning</h1>
-                                            <h3 class="text-white text-uppercase">Web programming made so easy even a child can learn how to do it.</h3>
+                                            <h3 class="text-white text-uppercase">High Quality, Professional web development training for the whole family. Mom, dad, brother and sister...jump onboard for the price of a bread & milk.</h3>
                                             <a href="#" class="btn btn-primary view_intro_video">View intro video</a>
                                         </div>
                                     </div><!-- End off slid item -->
@@ -148,20 +148,33 @@
                 <div class="container">
                     <div class="row">
                         <div class="main_features fix roomy-70">
-
                             <div class="col-md-5">
                                 <div class="features_item">
+
                                     <div class="head_title">
                                         <h2 class="text-uppercase">Why teach <strong>web programming?</strong></h2>
                                     </div>
                                     <div class="featured_content">
-                                        <p>We realize that there is a great need to teach people (especially kids) to learn the basics of web programming. There are so many benefits attached to learning how to program. From learning how to code for fun to using web programming skills for financial gain, the demand for web developers increase every year so there is no reason why we should not do this.</p>
-
-                                        <!--<a href="" class="btn btn-default m-top-40">Read More</a>-->
+                                        <p>Quite simply, we are PASSIONATE about teaching ALL people how to program.</p>
+                                        <p>The demand for web developers is growing everyday. We are here to help you get on board.</p>
                                     </div>
+
+                                    <div class="head_title">
+                                        <h2 class="text-uppercase">Who are <strong>we?</strong></h2>
+                                    </div>
+                                    <div class="featured_content">
+                                        We are web developers by profession and have been in the industry for over 15 years.
+                                    </div>
+
+                                    <div class="head_title">
+                                        <h2 class="text-uppercase">Why learn with <strong>us?</strong></h2>
+                                    </div>
+                                    <div class="featured_content">
+                                        We make the process of learning how to code a website, easy and fun
+                                    </div>                                                                  
                                 </div>
                             </div>
-
+                            <!--
                             <div class="col-md-6 col-md-offset-1 sm-m-top-50">
                                 <div class="features_item2_area">
                                     <div class="features_item2 text-center">
@@ -195,7 +208,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- hidden read more content 
+                            hidden read more content 
                             <div class="readmore-content">
                                 When we started this idea a few years ago the dream was to have physical classrooms all over the show...almost like a walk-in building where kids and adults could come and sit at a computer and have experts teach them, while not having to pay an arm and a leg for it. From there the idea ev
                             </div>-->
@@ -204,98 +217,6 @@
                     </div><!-- End off row -->
                 </div><!-- End off container -->
             </section><!-- End off Featured Section-->
-
-            <!--Team And Skill Section
-            <section id="teams" class="teams roomy-80">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_teams_content fix">
-                            <div class="col-md-6">
-                                <div class="teams_item">
-                                    <div class="head_title">
-                                        <h2 class="text-uppercase">Meet <strong>the Team</strong></h2>
-                                    </div>
-                                    <p>Hi and welcome to the site. My name is Julian and I will be your teacher. I look forward to having loads of fun with you while providing you with practical skills which will benefit you in your quest to become an awesome web developer. Don't worry though, I have been doing this for a very long time so you are in good hands.</p>
-
-
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="teams_item text-center sm-m-top-50">
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            <img src="assets/images/julian_hansby_v2.png" alt="" class="img-circle" />
-                                            <h4 class="m-top-20">Julian <strong>Hansby</strong></h4>
-                                            <h5>Head Tutor</h5>
-                                            <div class="separator"></div>
-                                            <ul class="list-inline">
-                                                <li><a href="https://www.linkedin.com/in/julian-hansby-53b50295/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <img src="assets/images/team2.jpg" alt="" class="img-circle" />
-                                            <h4 class="m-top-20">Sarah <strong>Smith</strong></h4>
-                                            <h5>UX Designer</h5>
-                                            <div class="separator"></div>
-                                            <ul class="list-inline">
-                                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href=""><i class="fa fa-dribbble"></i></a></li>
-                                            </ul>
-                                        </div> 
-                                        
-                                        <div class="col-sm-4">
-                                            <img src="assets/images/team3.jpg" alt="" class="img-circle" />
-                                            <h4 class="m-top-20">Fabian <strong>Doe</strong></h4>
-                                            <h5>Web Engineer</h5>
-                                            <div class="separator"></div>
-                                            <ul class="list-inline">
-                                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href=""><i class="fa fa-dribbble"></i></a></li>
-                                            </ul>
-                                        </div> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12">
-                            <div class="skill">
-                                <div class="team_content_details_skills m-top-50">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="80%">
-                                                <label>HTML</label>
-                                                <div class="teamskillbar-bar" style="width: 80%;"></div>
-                                            </div> 
-
-                                            <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="75%">
-                                                <label>CSS</label>
-                                                <div class="teamskillbar-bar" style="width: 75%;"></div>
-                                            </div> 
-                                        </div>
-
-                                        <div class="col-sm-6">
-                                            <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="90%">
-                                                <label>Javascript</label>
-                                                <div class="teamskillbar-bar" style="width: 90%;"></div>
-                                            </div> 
-
-                                            <div class="teamskillbar clearfix m-top-50 text-uppercase" data-percent="98%">
-                                                <label>Web Development</label>
-                                                <div class="teamskillbar-bar" style="width: 98%;"></div>
-                                            </div> 
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> End off Team & Skill section -->
-
 
             <!--Choose section-->
             <section id="choose" class="choose bg-grey roomy-80">
@@ -321,11 +242,11 @@
                             <div class="col-md-5 col-md-offset-1">
                                 <div class="choose_content sm-m-top-40">
                                     <div class="head_title">
-                                        <h2 class="text-uppercase">Why <strong>Learn from Us</strong></h2>
+                                        <h2 class="text-uppercase">What we <strong>Offer</strong></h2>
                                     </div>
                                     <div class="choose_item_text fix">
                                         <h6><i class="fa fa-check-square-o"></i> Easy to understand lessons.</h6>
-                                        <p>We make lessons easy enough for a child to understand. </p>
+                                        <p>If you can use a laptop, tablet or cellphone...you are set</p>
                                     </div>
                                     <div class="choose_item_text fix m-top-20">
                                         <h6><i class="fa fa-check-square-o"></i> Not only code.</h6>
