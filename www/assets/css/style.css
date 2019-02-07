@@ -718,6 +718,9 @@ textarea::-ms-input-placeholder{
   overflow: hidden;
 }*/
 
+.featured_content {
+    padding: 2% 4%;
+}
 
 .transform_scal_rotate:hover img{ 
     -webkit-transform: scale(1.1) rotate(4deg); 
@@ -733,7 +736,7 @@ textarea::-ms-input-placeholder{
 }
 /*heading title all area*/
 .head_title{
-    padding-bottom: 2.143rem;
+    padding-bottom: 0;
     overflow: hidden;
 }
 .head_title h2{
@@ -939,7 +942,7 @@ Home Section style
 .home_text h3 {
     font-size: 1.4em;
     font-family: 'Montserrat', sans-serif;
-    padding: 2% 0;
+    padding: 2% 8%;
 }
 
 @media screen and (max-width: 480px){

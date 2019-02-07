@@ -105,7 +105,7 @@
                             <li><a href="#test">Testimonial</a></li>-->
                             <li><a href="#pricing">Pricing</a></li>
                             <li><a href="#contact">Contact</a></li>
-                            <li><a href="/membership-login">Login</a></li>
+                            <li><a href="course-videos/">Course</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div>
@@ -124,7 +124,7 @@
                                     <div class="slid_item">
                                         <div class="home_text ">
                                             <h1 class="text-yellow">Welcome to Easy Web Learning</h1>
-                                            <h3 class="text-white text-uppercase">High Quality, Professional web development training for the whole family. Mom, dad, brother and sister...jump onboard for the price of a bread & milk.</h3>
+                                            <h3 class="text-white text-uppercase">Professional web development training for people who have never coded a website in their lives.</h3>
                                             <a href="#" class="btn btn-primary view_intro_video">View intro video</a>
                                         </div>
                                     </div><!-- End off slid item -->
@@ -148,29 +148,32 @@
                 <div class="container">
                     <div class="row">
                         <div class="main_features fix roomy-70">
-                            <div class="col-md-5">
+                            <div class="col-md-12">
                                 <div class="features_item">
 
                                     <div class="head_title">
                                         <h2 class="text-uppercase">Why teach <strong>web programming?</strong></h2>
                                     </div>
                                     <div class="featured_content">
-                                        <p>Quite simply, we are PASSIONATE about teaching ALL people how to program.</p>
-                                        <p>The demand for web developers is growing everyday. We are here to help you get on board.</p>
+                                        <p>We <strong>LIVE</strong> and <strong>BREATH</strong> web programming and our mission is to teach as <strong>many people as possible</strong> to code a website.</p>
+                                        <p>The demand for web developers is <strong>growing everyday</strong>. We are here to help <strong>you</strong> get on board.</p>
                                     </div>
 
                                     <div class="head_title">
                                         <h2 class="text-uppercase">Who are <strong>we?</strong></h2>
                                     </div>
                                     <div class="featured_content">
-                                        We are web developers by profession and have been in the industry for over 15 years.
+                                        <p><strong>Cape Town South Africa</strong> is where we are at.</p>
+                                        <p>With over <strong>15 years of industry experience and expertize</strong>, we've been around the park for a long time.</p> 
                                     </div>
 
                                     <div class="head_title">
                                         <h2 class="text-uppercase">Why learn with <strong>us?</strong></h2>
                                     </div>
                                     <div class="featured_content">
-                                        We make the process of learning how to code a website, easy and fun
+                                        <p>We believe in learning <strong>with a twist!</strong></p>
+                                        <p>So you won't only learn to code websites but also learn about industry trends, the job market, how to make money through websites etc</p>
+                                        <p><strong>WHILE HAVING FUN!...and getting FREE stuff</strong> from time to time (read more below).</p>
                                     </div>                                                                  
                                 </div>
                             </div>
@@ -223,6 +226,12 @@
                 <div class="container">
                     <div class="row">
                         <div class="main_choose">
+
+                            <div class="head_title">
+                                <h2 class="text-uppercase">What we <strong>Offer</strong></h2>
+                            </div>                            
+
+                            <!--
                             <div class="col-md-6">
                                 <div class="choose_mac">
                                     <div class="choose_slide">
@@ -237,13 +246,11 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div><!-- End off col-md-6 -->
+                            </div> End off col-md-6 -->
 
-                            <div class="col-md-5 col-md-offset-1">
-                                <div class="choose_content sm-m-top-40">
-                                    <div class="head_title">
-                                        <h2 class="text-uppercase">What we <strong>Offer</strong></h2>
-                                    </div>
+                            <div class="col-md-6">
+                                <div class="choose_content m-top-40">
+                                    
                                     <div class="choose_item_text fix">
                                         <h6><i class="fa fa-check-square-o"></i> Easy to understand lessons.</h6>
                                         <p>If you can use a laptop, tablet or cellphone...you are set</p>
@@ -256,6 +263,13 @@
                                         <h6><i class="fa fa-check-square-o"></i> The whole family in one classroom.</h6>
                                         <p>Mom, dad, brother and sister can all learn together, in their own time. </p>
                                     </div>
+                                </div>
+                            </div><!-- End off col-md-6 -->
+
+
+                            <div class="col-md-6">
+                                <div class="choose_content m-top-40">
+                                    
                                     <div class="choose_item_text fix m-top-20">
                                         <h6><i class="fa fa-check-square-o"></i> Free weekly webinars.</h6>
                                         <p>We provide answers to any web related question you might have on a weekly basis, via a free webinar on our facebook page.</p>
@@ -285,13 +299,17 @@
                                     <div class="slid_shap bg-yellow"></div>
                                     <div class="service_slid_item text-center">
                                         <div class="service_slid_text">
-                                            <span class="icon icon icon-tools text-black"></span>
-                                            <h5 class="text-black m-top-20">UI/UX Design</h5>
+                                            <span class="icon icon icon-building112 text-black"></span>
+                                            <h5 class="text-black m-top-20">HTML</h5>
                                         </div>
                                         <div class="service_slid_text">
                                             <span class="icon icon icon-sports-2 text-black"></span>
-                                            <h5 class="text-black m-top-20">UI/UX Design</h5>
+                                            <h5 class="text-black m-top-20">CSS</h5>
                                         </div>
+                                        <div class="service_slid_text">
+                                            <span class="icon icon icon-sports-2 text-black"></span>
+                                            <h5 class="text-black m-top-20">JavaScript</h5>
+                                        </div>                                        
                                     </div>
                                 </div>
                             </div>
@@ -330,7 +348,7 @@
                                     <ul>
                                         <li>Access to ALL video content <i class="fas fa-check-circle"></i></li>
                                         <li>Free access to weekly webinar <i class="fas fa-check-circle"></i></li>
-                                        <li>Win FREE vouchers <i class="fas fa-check-circle"></i></li>
+                                        <!--<li>Win FREE vouchers <i class="fas fa-check-circle"></i></li>-->
                                         <li>&nbsp;</li>
                                     </ul>
                                     <a href="/membership-account/membership-checkout/?level=1" class="btn btn-secondary">Buy now</a>
@@ -340,18 +358,18 @@
                                     <ul>
                                         <li>Access to ALL video content <i class="fas fa-check-circle"></i></li>
                                         <li>Free access to weekly webinar <i class="fas fa-check-circle"></i></li>
-                                        <li>Win FREE vouchers <i class="fas fa-check-circle"></i></li>
+                                        <!--<li>Win FREE vouchers <i class="fas fa-check-circle"></i></li>-->
                                         <li>Save R160 <i class="fas fa-check-circle"></i></li>
                                     </ul>
                                     <a href="/membership-account/membership-checkout/?level=2" class="btn btn-secondary">Buy now</a>                                    
                                 </div>
                                 <div class="col-md-3 products">
-                                    <div class="title text-black">R89 Masterclass</div>
+                                    <div class="title text-black">R99 Masterclass</div>
                                     <ul>
                                         <li>Once-off 2 hour lesson <i class="fas fa-check-circle"></i></li>
                                         <li>Lesson available for 24 hours <i class="fas fa-check-circle"></i></li>
                                         <li>Free weekly webinar <i class="fas fa-check-circle"></i></li>
-                                        <li>Inc 1 month free subscription <i class="fas fa-check-circle"></i></li>
+                                        <!--<li>Inc 1 month free subscription <i class="fas fa-check-circle"></i></li>-->
                                     </ul>
                                     <a href="/membership-account/membership-checkout/?level=3" class="btn btn-secondary">Buy now</a>                                    
                                 </div>
@@ -386,7 +404,7 @@
                             <div class="col-md-3">
                                 <div class="widget_item widget_about">
                                     <h5 class="text-white">Social Media</h5>
-                                    <p class="m-top-30"><a href="https://www.facebook.com/Easy-Web-Learning-305871990062611" target="_blank"><i class="fa fa-facebook"></i></a></p>
+                                    <p class="m-top-30"><a href="https://www.facebook.com/Easy-Web-Learning-305871990062611" target="_blank"><img src="assets/images/facebook-icon_cropped.png" alt="Facebook" style="width: 32px"></a></p>
                                 </div>
                             </div>
 
