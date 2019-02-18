@@ -55,6 +55,16 @@
     </head>
 
     <body data-spy="scroll" data-target=".navbar-collapse" data-offset="100">
+
+        <style type="text/css">
+            #mailpoet_form_1 { display: none }
+        </style>
+
+        <?php
+            $form_widget = new \MailPoet\Form\Widget();
+            echo $form_widget->widget(array('form' => 1, 'form_type' => 'php'));
+        ?>
+
         <!-- Preloader -->
         <div id="loading">
             <div id="loading-center">
@@ -125,7 +135,7 @@
                                         <div class="home_text ">
                                             <h1 class="text-yellow">Welcome to Easy Web Learning</h1>
                                             <h3 class="text-white text-uppercase">Professional web development training for people who have never coded a website in their lives.</h3>
-                                            <a href="#" class="btn btn-primary view_intro_video">View intro video</a>
+                                            <!--<a href="#" class="btn btn-primary view_intro_video">View intro video</a>-->
                                         </div>
                                     </div><!-- End off slid item -->
 
@@ -172,8 +182,8 @@
                                     </div>
                                     <div class="featured_content">
                                         <p>We believe in learning <strong>with a twist!</strong></p>
-                                        <p>So you won't only learn to code websites but also learn about industry trends, the job market, how to make money through websites etc</p>
-                                        <p><strong>WHILE HAVING FUN!...and getting FREE stuff</strong> from time to time (read more below).</p>
+                                        <p>So you won't only learn to code websites but also learn about industry trends, the job market, how to make money through websites...</p>
+                                        <p>...<strong>WHILE HAVING FUN!...and getting FREE stuff</strong> from time to time (read more below).</p>
                                     </div>                                                                  
                                 </div>
                             </div>
@@ -261,7 +271,7 @@
                                     </div>
                                     <div class="choose_item_text fix m-top-20">
                                         <h6><i class="fa fa-check-square-o"></i> The whole family in one classroom.</h6>
-                                        <p>Mom, dad, brother and sister can all learn together, in their own time. </p>
+                                        <p>Mom, dad, brother and sister can all learn together. </p>
                                     </div>
                                 </div>
                             </div><!-- End off col-md-6 -->
@@ -276,7 +286,7 @@
                                     </div>
                                     <div class="choose_item_text fix m-top-20">
                                         <h6><i class="fa fa-check-square-o"></i> We give away free stuff.</h6>
-                                        <p>To build and strengthen our relationship with our students we give away online shopping vouchers, subscriptions and more, from time to time.</p>
+                                        <p>To build and strengthen our relationship with you we give away online shopping vouchers, subscriptions and more, from time to time.</p>
                                     </div>                                                                          
                                     <!--<div class="choose_item_text fix m-top-20">
                                         <h6><i class="fa fa-check-square-o"></i> Cost effective.</h6>
@@ -339,41 +349,44 @@
                                 <h1 class="text-black">Check out our free tutorial below</h1>
                                 <a href="/course-videos/" class="btn btn-primary m-top-30">View video tutorial</a>
                                 <h2 class="text-white m-top-30">- THEN -</h2>
-                                <h3 class="text-black text-uppercase">Learn to code for the price of a bread & milk</h3>
+                                <h3 class="text-black text-uppercase">Learn to code for the price of a...</h3>
                                 <!--<p class="m-top-30">Pricing will be available soon...watch this space!</p>
                                 <a href="/course-videos/" class="btn btn-primary m-top-100">View course content</a>-->
 
                                 <div class="col-md-3 products">
-                                    <div class="title text-black">R55 per month</div>
+                                    <div class="title text-black">Bread & Milk</div>
                                     <ul>
+                                        <li>R55 per month</li>
                                         <li>Access to ALL video content <i class="fas fa-check-circle"></i></li>
                                         <li>Free access to weekly webinar <i class="fas fa-check-circle"></i></li>
-                                        <!--<li>Win FREE vouchers <i class="fas fa-check-circle"></i></li>-->
+                                        <li>&nbsp;</li>
                                         <li>&nbsp;</li>
                                     </ul>
-                                    <a href="/membership-account/membership-checkout/?level=1" class="btn btn-secondary">Buy now</a>
+                                    <a href="/membership-account/membership-checkout/?level=1" class="btn btn-secondary">Read more & Subscribe</a>
                                 </div>
                                 <div class="col-md-3 products">
-                                    <div class="title text-black">R499 for the year</div>
+                                    <div class="title text-black">1 Bag of Shopping</div>
                                     <ul>
+                                        <li>R399 ONCE OFF</li>
                                         <li>Access to ALL video content <i class="fas fa-check-circle"></i></li>
+                                        <li>Pay ONCE and NEVER again <i class="fas fa-check-circle"></i></li>
+                                        <li>Win FREE vouchers <i class="fas fa-check-circle"></i></li>
                                         <li>Free access to weekly webinar <i class="fas fa-check-circle"></i></li>
-                                        <!--<li>Win FREE vouchers <i class="fas fa-check-circle"></i></li>-->
-                                        <li>Save R160 <i class="fas fa-check-circle"></i></li>
                                     </ul>
-                                    <a href="/membership-account/membership-checkout/?level=2" class="btn btn-secondary">Buy now</a>                                    
+                                    <a href="/membership-account/membership-checkout/?level=2" class="btn btn-secondary">Read more & Buy now</a>                                    
                                 </div>
+                                <!--
                                 <div class="col-md-3 products">
                                     <div class="title text-black">R99 Masterclass</div>
                                     <ul>
                                         <li>Once-off 2 hour lesson <i class="fas fa-check-circle"></i></li>
                                         <li>Lesson available for 24 hours <i class="fas fa-check-circle"></i></li>
                                         <li>Free weekly webinar <i class="fas fa-check-circle"></i></li>
-                                        <!--<li>Inc 1 month free subscription <i class="fas fa-check-circle"></i></li>-->
+                                        <li>Inc 1 month free subscription <i class="fas fa-check-circle"></i></li>
                                     </ul>
                                     <a href="/membership-account/membership-checkout/?level=3" class="btn btn-secondary">Buy now</a>                                    
                                 </div>
-
+                                -->
 
                             </div>
                         </div>
@@ -410,6 +423,9 @@
 
                         </div>
                     </div>
+                </div>
+                <div class="container p-top-40">
+                    <a href="/assets/pdf/TermsandConditions.pdf" target="_blank">Terms &amp; Conditions</a>
                 </div>
             </footer>
         </div>

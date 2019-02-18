@@ -1557,15 +1557,15 @@ tems Section style
 .footer { padding-bottom: 5% }
 
 .products {
-    min-width: 250px;
+    /* min-width: 250px; */
     background-color: white;
-    margin: 30px 1%;
-    width: 100%;
+    margin: 30px 2.5%;
+    width: 45%;
     border-radius: 6px;
     padding: 4%;
     min-height: 370px;
     position: relative;
-    max-width: 350px;
+    /* max-width: 400px; */
     float: left;
 }
 

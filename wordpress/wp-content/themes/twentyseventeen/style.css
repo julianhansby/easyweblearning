@@ -4355,3 +4355,9 @@ p > object:only-child {
 	padding: 8%;
 	border-radius: 6px;	
 }
+
+.tandcs_container {
+    background-color: orange;
+    padding: 15px;
+    border-radius: 6px;
+}
