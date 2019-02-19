@@ -112,10 +112,10 @@
                             <li><a href="#about">About</a></li>
                             <li><a href="#service">Service</a></li>
                             <!--<li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#test">Testimonial</a></li>-->
-                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#test">Testimonial</a></li>
+                            <li><a href="#pricing">Pricing</a></li>-->
                             <li><a href="#contact">Contact</a></li>
-                            <li><a href="course-videos/">Course</a></li>
+                            <li><a href="course-videos/">Course Videos</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div>
@@ -134,7 +134,7 @@
                                     <div class="slid_item">
                                         <div class="home_text ">
                                             <h1 class="text-yellow">Welcome to Easy Web Learning</h1>
-                                            <h3 class="text-white text-uppercase">Professional web development training for people who have never coded a website in their lives.</h3>
+                                            <h3 class="text-white text-uppercase">Code your first website, then learn to make money off it. Web training for beginners, taught by a professional.</h3>
                                             <!--<a href="#" class="btn btn-primary view_intro_video">View intro video</a>-->
                                         </div>
                                     </div><!-- End off slid item -->
@@ -165,23 +165,23 @@
                                         <h2 class="text-uppercase">Why teach <strong>web programming?</strong></h2>
                                     </div>
                                     <div class="featured_content">
-                                        <p>We <strong>LIVE</strong> and <strong>BREATH</strong> web programming and our mission is to teach as <strong>many people as possible</strong> to code a website.</p>
-                                        <p>The demand for web developers is <strong>growing everyday</strong>. We are here to help <strong>you</strong> get on board.</p>
+                                        <p>Hi, Julian here. I <strong>LIVE</strong> and <strong>BREATH</strong> web programming and my mission is to teach as <strong>many people as possible</strong> to code a website.</p>
+                                        <p>The demand for web developers is <strong>growing everyday</strong>. I am here to help <strong>you</strong> get on board.</p>
                                     </div>
 
                                     <div class="head_title">
-                                        <h2 class="text-uppercase">Who are <strong>we?</strong></h2>
+                                        <h2 class="text-uppercase">Who am <strong>I?</strong></h2>
                                     </div>
                                     <div class="featured_content">
-                                        <p><strong>Cape Town South Africa</strong> is where we are at.</p>
-                                        <p>With over <strong>15 years of industry experience and expertize</strong>, we've been around the park for a long time.</p> 
+                                        <p><strong>Cape Town, South Africa</strong> is where I'm are at.</p>
+                                        <p>With over <strong>13 years of industry experience and expertize</strong>, I've been around the park for a long time.</p> 
                                     </div>
 
                                     <div class="head_title">
-                                        <h2 class="text-uppercase">Why learn with <strong>us?</strong></h2>
+                                        <h2 class="text-uppercase">Why learn with <strong>me?</strong></h2>
                                     </div>
                                     <div class="featured_content">
-                                        <p>We believe in learning <strong>with a twist!</strong></p>
+                                        <p>I believe in learning <strong>with a twist!</strong></p>
                                         <p>So you won't only learn to code websites but also learn about industry trends, the job market, how to make money through websites...</p>
                                         <p>...<strong>WHILE HAVING FUN!...and getting FREE stuff</strong> from time to time (read more below).</p>
                                     </div>                                                                  
@@ -238,7 +238,7 @@
                         <div class="main_choose">
 
                             <div class="head_title">
-                                <h2 class="text-uppercase">What we <strong>Offer</strong></h2>
+                                <h2 class="text-uppercase">What I <strong>Offer</strong></h2>
                             </div>                            
 
                             <!--
@@ -282,11 +282,11 @@
                                     
                                     <div class="choose_item_text fix m-top-20">
                                         <h6><i class="fa fa-check-square-o"></i> Free weekly webinars.</h6>
-                                        <p>We provide answers to any web related question you might have on a weekly basis, via a free webinar on our facebook page.</p>
+                                        <p>I provide answers to any web related question you might have via a free webinar.</p>
                                     </div>
                                     <div class="choose_item_text fix m-top-20">
-                                        <h6><i class="fa fa-check-square-o"></i> We give away free stuff.</h6>
-                                        <p>To build and strengthen our relationship with you we give away online shopping vouchers, subscriptions and more, from time to time.</p>
+                                        <h6><i class="fa fa-check-square-o"></i> I give away free stuff.</h6>
+                                        <p>To build and strengthen my relationship with you I give away online vouchers, subscriptions and more from time to time.</p>
                                     </div>                                                                          
                                     <!--<div class="choose_item_text fix m-top-20">
                                         <h6><i class="fa fa-check-square-o"></i> Cost effective.</h6>
@@ -329,7 +329,7 @@
                                         <h2 class="text-uppercase">Our <strong>Service</strong></h2>
                                     </div>
                                     <div class="service_content">
-                                        <p>So in a nutshell, we will be teaching you the three basic languages of the web: HTML, CSS and Javascript. We have created short, easy to understand lessons so things remain simple. We not only teach you how to program but also provide industry standard tips, news, guidance and practical ways of using your new found skills to create websites on your own, for fun or for financial gain.</p>
+                                        <p>In a nutshell, I will be teaching you the three basic languages of the web: HTML, CSS and Javascript. I have created short, easy to understand lessons so things remain simple. I not only teach you how to program but also provide industry standard tips, news, guidance and practical ways of using your new found skills to create websites on your own, for fun or for financial gain.</p>
 
                                         <!--<a href="" class="btn btn-default m-top-40">Read More</a>-->
                                     </div>
@@ -340,7 +340,7 @@
                 </div>
             </section><!-- End off Business section -->            
 
-            <!--Pricing Section-->
+            <!--Pricing Section
             <section id="pricing" class="about bg-yellow roomy-80">
                 <div class="container">
                     <div class="row">
@@ -350,9 +350,6 @@
                                 <a href="/course-videos/" class="btn btn-primary m-top-30">View video tutorial</a>
                                 <h2 class="text-white m-top-30">- THEN -</h2>
                                 <h3 class="text-black text-uppercase">Learn to code for the price of a...</h3>
-                                <!--<p class="m-top-30">Pricing will be available soon...watch this space!</p>
-                                <a href="/course-videos/" class="btn btn-primary m-top-100">View course content</a>-->
-
                                 <div class="col-md-3 products">
                                     <div class="title text-black">Bread & Milk</div>
                                     <ul>
@@ -375,7 +372,6 @@
                                     </ul>
                                     <a href="/membership-account/membership-checkout/?level=2" class="btn btn-secondary">Read more & Buy now</a>                                    
                                 </div>
-                                <!--
                                 <div class="col-md-3 products">
                                     <div class="title text-black">R99 Masterclass</div>
                                     <ul>
@@ -386,13 +382,12 @@
                                     </ul>
                                     <a href="/membership-account/membership-checkout/?level=3" class="btn btn-secondary">Buy now</a>                                    
                                 </div>
-                                -->
 
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>-->
 
             <!--Footer Section-->
             <footer id="contact" class="footer action-lage bg-black p-top-80">
@@ -402,8 +397,8 @@
 
                             <div class="col-md-3">
                                 <div class="widget_item widget_about">
-                                    <h5 class="text-white">About Us</h5>
-                                    <p class="m-top-30">We are people passionate about web development, aiming to teach as many people possible, about web programming.</p>
+                                    <h5 class="text-white">About Me</h5>
+                                    <p class="m-top-30">Julian Hansby, Professional Web Developer, out of the heart of Cape Town. Ready to share some awesome skills!</p>
                                 </div>
                             </div>
  
