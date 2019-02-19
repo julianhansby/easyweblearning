@@ -326,7 +326,7 @@
                             <div class="col-md-5 col-md-offset-1">
                                 <div class="service_item sm-m-top-50">
                                     <div class="head_title">
-                                        <h2 class="text-uppercase">Our <strong>Service</strong></h2>
+                                        <h2 class="text-uppercase">My <strong>Service</strong></h2>
                                     </div>
                                     <div class="service_content">
                                         <p>In a nutshell, I will be teaching you the three basic languages of the web: HTML, CSS and Javascript. I have created short, easy to understand lessons so things remain simple. I not only teach you how to program but also provide industry standard tips, news, guidance and practical ways of using your new found skills to create websites on your own, for fun or for financial gain.</p>

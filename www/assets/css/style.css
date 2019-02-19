@@ -64,6 +64,17 @@ iframe{
     width: 33%;
 }
 
+    @media all and (max-width: 768px){
+        .footer .col-md-3 {
+            width: 60%;
+            margin-bottom: 5%;
+        }   
+    }
+
+    @media all and (max-width: 620px){
+        .footer .col-md-3 { width: 90% }   
+    }
+
 .page-content, 
 section { overflow: hidden; }
 
@@ -939,6 +950,10 @@ Home Section style
     margin-bottom: 2%;
     line-height: 1em;
 }
+    @media screen and (max-width: 620px){
+        .home_text h1 { margin-bottom: 8% }
+    }
+
 .home_text h3 {
     font-size: 1.4em;
     font-family: 'Montserrat', sans-serif;
