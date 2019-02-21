@@ -113,8 +113,9 @@
                             <li><a href="#service">Service</a></li>
                             <!--<li><a href="#portfolio">Portfolio</a></li>
                             <li><a href="#test">Testimonial</a></li>
-                            <li><a href="#pricing">Pricing</a></li>-->
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#contact">Contact</a></li>-->
+                            <li><a href="/blog">Blog</a></li>
                             <li><a href="course-videos/">Course Videos</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -296,6 +297,35 @@
                             </div><!-- End off col-md-6 -->
                         </div>
                     </div><!-- End off row -->
+
+                    <style type="text/css">
+                        .btn_crash_course {
+                            background-color: green;
+                            color: white;
+                            font-size: 1.3em;
+                            padding: 2%;
+                        }
+
+                        .crash_course_holder {
+                            text-align: center; 
+                            margin: 4% 0;
+                        }
+                        
+                            @media all and (max-width: 620px){
+                                .btn_crash_course {
+                                    padding: 4%;
+                                    font-size: 14px;
+                                }
+                                .crash_course_holder {
+                                    margin: 6% 0;
+                                }
+                            }                        
+                    </style>
+
+                    <div class="crash_course_holder">
+                        <a href="/free-video-offer/" 
+                            class="btn btn_crash_course">CLICK HERE TO GET A FREE CRASH COURSE</a>
+                    </div> <!-- / end row -->
                 </div><!-- End off container -->
             </section><!-- End off choose section -->
 

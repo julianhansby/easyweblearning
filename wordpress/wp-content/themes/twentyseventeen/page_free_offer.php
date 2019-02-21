@@ -21,6 +21,10 @@
 ?>
 
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
 
 <style type="text/css">
 
@@ -32,7 +36,7 @@
     	color: #16293b;
 	}
 
-	strong { color: #16293b }
+	strong, a { color: #16293b }
 
 	.free_offer {
 		border: 4px dashed #16293b;
@@ -41,9 +45,24 @@
     	max-width: 500px;		
 	}
 
-	.header { text-align: center }
+	.pmpro_checkout h3 { display: none !important }
 
-	input[type="text"], input[type="email"] {
+	.pmpro_checkout { color:  #16293b}
+
+	.pmpro_checkout-field { margin: 5px 0 }
+
+	.pmpro_checkout-fields label {
+		display: inline-block;
+    	width: 40%;
+	}
+
+	#pmpro_payfast_before_checkout { margin-top: 20px;  }
+
+	.pmpro_checkout-fields input { width: 55% }
+
+	.header, .pmpro_submit { text-align: center }
+
+	input[type="text"], input[type="email"], input[type="password"] {
 		border-radius: 4px;
 		padding: 8px 14px;
 		border: none;
@@ -51,7 +70,9 @@
 
 	.red_text { color: red !important }
 
-	input[type="submit"] {
+	.pmpro_hidden strong { display: none }
+
+	input[type="submit"], .pmpro_checkout-fields input[type="button"] {
 		border: none;
 		padding: 15px 30px;
 		font-size: 1.2em;
@@ -60,8 +81,28 @@
 		color: #fff;
 		text-transform: uppercase;
 		cursor: pointer;
-		margin: 0 auto;
+		margin: 15px auto;
+		width: 100%;
 	}
+
+	.pmpro_error {
+		color: red;
+		text-align: center;
+		font-weight: bold;
+		margin-top: 20px;
+		border: 1px solid red !important;
+	}
+
+	#pmpro_tos_fields label {
+	    width: 80%;
+	}
+
+	#pmpro_tos_fields input {
+	    width: 20px;
+	    height: 20px;
+	    position: relative;
+	    top: 5px;
+	}	
 
 	h4 {
     	text-transform: uppercase;
