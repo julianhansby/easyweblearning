@@ -114,8 +114,8 @@
                             <!--<li><a href="#portfolio">Portfolio</a></li>
                             <li><a href="#test">Testimonial</a></li>
                             <li><a href="#pricing">Pricing</a></li>
-                            <li><a href="#contact">Contact</a></li>-->
-                            <li><a href="/blog">Blog</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="/blog">Blog</a></li>-->
                             <li><a href="course-videos/">Course Videos</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -161,19 +161,29 @@
                         <div class="main_features fix roomy-70">
                             <div class="col-md-12">
                                 <div class="features_item">
-
+                                    <!--
                                     <div class="head_title">
                                         <h2 class="text-uppercase">Why teach <strong>web programming?</strong></h2>
                                     </div>
-                                    <div class="featured_content">
-                                        <p>Hi, Julian here. I <strong>LIVE</strong> and <strong>BREATH</strong> web programming and my mission is to teach as <strong>many people as possible</strong> to code a website.</p>
-                                        <p>The demand for web developers is <strong>growing everyday</strong>. I am here to help <strong>you</strong> get on board.</p>
+                                    <div class="featured_content">    
                                     </div>
+                                    -->
+
+                                    <style type="text/css">
+                                        .this_img {
+                                            border-radius: 50%;
+                                            float: left;
+                                            margin: 10px 10px 10px 0;
+                                            width: 100px;                                            
+                                        }
+                                    </style>
 
                                     <div class="head_title">
                                         <h2 class="text-uppercase">Who am <strong>I?</strong></h2>
                                     </div>
                                     <div class="featured_content">
+                                        <p>Hi, Julian here. I <strong>LIVE</strong> and <strong>BREATH</strong> web programming and my mission is to teach as <strong>many people as possible</strong> to code a website. <img src="assets/images/julian_hansby_v2.png" class="this_img"></p>
+                                        <p>The demand for web developers is <strong>growing everyday</strong>. I am here to help <strong>you</strong> get on board.</p>                                    
                                         <p><strong>Cape Town, South Africa</strong> is where I'm are at.</p>
                                         <p>With over <strong>13 years of industry experience and expertize</strong>, I've been around the park for a long time.</p> 
                                     </div>
@@ -182,9 +192,9 @@
                                         <h2 class="text-uppercase">Why learn with <strong>me?</strong></h2>
                                     </div>
                                     <div class="featured_content">
-                                        <p>I believe in learning <strong>with a twist!</strong></p>
-                                        <p>So you won't only learn to code websites but also learn about industry trends, the job market, how to make money through websites...</p>
-                                        <p>...<strong>WHILE HAVING FUN!...and getting FREE stuff</strong> from time to time (read more below).</p>
+                                        <p>I believe in <strong>LEARNING WITH A TWIST!</strong></p>
+                                        <p>Here you won't only learn to build a website <strong>BUT I ALSO</strong> teach you how to make money off it!</p>
+                                        <p>This is your ONE STOP SHOP to <strong>LEARNING......and EARNING</strong></p>
                                     </div>                                                                  
                                 </div>
                             </div>
@@ -270,21 +280,21 @@
                                         <h6><i class="fa fa-check-square-o"></i> Not only code.</h6>
                                         <p>Practical info, tips and guidance on everything web. </p>
                                     </div>
-                                    <div class="choose_item_text fix m-top-20">
-                                        <h6><i class="fa fa-check-square-o"></i> The whole family in one classroom.</h6>
-                                        <p>Mom, dad, brother and sister can all learn together. </p>
-                                    </div>
                                 </div>
                             </div><!-- End off col-md-6 -->
 
 
                             <div class="col-md-6">
                                 <div class="choose_content m-top-40">
-                                    
+                                    <!--
                                     <div class="choose_item_text fix m-top-20">
                                         <h6><i class="fa fa-check-square-o"></i> Free weekly webinars.</h6>
                                         <p>I provide answers to any web related question you might have via a free webinar.</p>
-                                    </div>
+                                    </div>-->
+                                    <div class="choose_item_text fix m-top-20">
+                                        <h6><i class="fa fa-check-square-o"></i> The whole family in one classroom.</h6>
+                                        <p>Mom, dad, brother and sister can all learn together. </p>
+                                    </div>                                    
                                     <div class="choose_item_text fix m-top-20">
                                         <h6><i class="fa fa-check-square-o"></i> I give away free stuff.</h6>
                                         <p>To build and strengthen my relationship with you I give away online vouchers, subscriptions and more from time to time.</p>
@@ -321,15 +331,15 @@
                                 }
                             }                        
                     </style>
-
+                    <!--
                     <div class="crash_course_holder">
                         <a href="/free-video-offer/" 
                             class="btn btn_crash_course">CLICK HERE TO GET A FREE CRASH COURSE</a>
-                    </div> <!-- / end row -->
+                    </div>--> <!-- / end row -->
                 </div><!-- End off container -->
             </section><!-- End off choose section -->
 
-            <!--Services Section-->
+            <!--Services Section
             <section id="service" class="service bg-white roomy-70">
                 <div class="container">
                     <div class="row">
@@ -360,15 +370,13 @@
                                     </div>
                                     <div class="service_content">
                                         <p>In a nutshell, I will be teaching you the three basic languages of the web: HTML, CSS and Javascript. I have created short, easy to understand lessons so things remain simple. I not only teach you how to program but also provide industry standard tips, news, guidance and practical ways of using your new found skills to create websites on your own, for fun or for financial gain.</p>
-
-                                        <!--<a href="" class="btn btn-default m-top-40">Read More</a>-->
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section><!-- End off Business section -->            
+            </section>End off Business section -->            
 
             <!--Pricing Section
             <section id="pricing" class="about bg-yellow roomy-80">
