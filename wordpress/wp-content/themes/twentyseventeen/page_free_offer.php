@@ -20,7 +20,16 @@
 
 ?>
 
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Easy Web Learning">
+  <meta name="keywords" content="Online Marketing, Facebook Business Tools, Wordpress Lessons">
+  <meta name="author" content="Julian Hansby">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+
 <script
   src="https://code.jquery.com/jquery-1.12.4.min.js"
   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
@@ -44,6 +53,17 @@
     	margin: 2% auto 5% auto;
     	max-width: 500px;		
 	}
+
+		@media screen and (max-width: 480px){
+			.free_offer {
+				max-width: 100% !important;
+				margin: 5% !important;
+			}
+
+			iframe {
+				width: 100% !important;
+			}
+		}
 
 	.pmpro_checkout h3 { display: none !important }
 
