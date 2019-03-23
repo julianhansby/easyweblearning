@@ -7,8 +7,8 @@
     <head>
         <meta charset="utf-8">
         <title>EasyWebLearning</title>
-        <meta name="description" content="An easy way to learn how to do web programming in South Africa. We aim to teach kids, parents and siblings to learn to code websites and web applications for a very cheap and affordable price.">
-        <meta name="keywords" content="South Africa, Learning, Online Education, Web Development, Programming, HTML, CSS, Javascript, Cape Town">
+        <meta name="description" content="Web Development and Online Digital Marketing training in South Africa. Learn to use the power of WordPress and Facebook Marketing to sell your products online. Also earn money by selling other businesses products online">
+        <meta name="keywords" content="SA Online Marketing, Digital Marketing, South Africa WordPress, HTML, CSS, Javascript, Cape Town Online Training, South Africa Facebook Marketing">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
@@ -110,12 +110,13 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#home">Home</a></li>                    
                             <li><a href="#about">About</a></li>
-                            <li><a href="#service">Service</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
                             <!--<li><a href="#portfolio">Portfolio</a></li>
                             <li><a href="#test">Testimonial</a></li>
                             <li><a href="#pricing">Pricing</a></li>
                             <li><a href="#contact">Contact</a></li>
                             <li><a href="/blog">Blog</a></li>-->
+                            <li><a href="#free-course">Get FREE Course</a></li>
                             <li><a href="course-videos/">Course Videos</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -135,7 +136,7 @@
                                     <div class="slid_item">
                                         <div class="home_text ">
                                             <h1 class="text-yellow">Welcome to Easy Web Learning</h1>
-                                            <h3 class="text-white text-uppercase">Code your first website, then learn to make money off it. Web training for beginners, taught by a professional.</h3>
+                                            <h3 class="text-white text-uppercase">Web Development and Online Marketing Training for beginners, taught by profressionals</h3>
                                             <!--<a href="#" class="btn btn-primary view_intro_video">View intro video</a>-->
                                         </div>
                                     </div><!-- End off slid item -->
@@ -183,7 +184,7 @@
                                     </div>
                                     <div class="featured_content">
                                         <p>Hi, Julian here. I <strong>LIVE</strong> and <strong>BREATH</strong> web programming and my mission is to teach as <strong>many people as possible</strong> to code a website. <img src="assets/images/julian_hansby_v2.png" class="this_img"></p>
-                                        <p>The demand for web developers is <strong>growing everyday</strong>. I am here to help <strong>you</strong> get on board.</p>                                    
+                                        <p>I am also an entrepreneur who teaches online marketing and techniques on how to successfully sell a product online.</p>                                 
                                         <p><strong>Cape Town, South Africa</strong> is where I'm are at.</p>
                                         <p>With over <strong>13 years of industry experience and expertize</strong>, I've been around the park for a long time.</p> 
                                     </div>
@@ -192,9 +193,11 @@
                                         <h2 class="text-uppercase">Why learn with <strong>me?</strong></h2>
                                     </div>
                                     <div class="featured_content">
-                                        <p>I believe in <strong>LEARNING WITH A TWIST!</strong></p>
+                                        <p>I will help you to sell products online and make money off it.</p>
+                                        <p>I myself generate thousands of Rands using the power of web development and online marketing and am <strong>WELL VERSED</strong> to teach it to others.</p>
+                                        <!--<p>I believe in <strong>LEARNING WITH A TWIST!</strong></p>
                                         <p>Here you won't only learn to build a website <strong>BUT I ALSO</strong> teach you how to make money off it!</p>
-                                        <p>This is your ONE STOP SHOP to <strong>LEARNING......and EARNING</strong></p>
+                                        <p>This is your ONE STOP SHOP to <strong>LEARNING......and EARNING</strong></p>-->
                                     </div>                                                                  
                                 </div>
                             </div>
@@ -329,15 +332,26 @@
                                 .crash_course_holder {
                                     margin: 6% 0;
                                 }
-                            }                        
+                            }                
+                            .black-p-text { color: #1a1a1a }       
                     </style>
-                    <!--
-                    <div class="crash_course_holder">
-                        <a href="/free-video-offer/" 
-                            class="btn btn_crash_course">CLICK HERE TO GET A FREE CRASH COURSE</a>
-                    </div>--> <!-- / end row -->
+                    
+
                 </div><!-- End off container -->
             </section><!-- End off choose section -->
+
+            <section id="free-course" class="bg-yellow">
+                <div class="crash_course_holder">
+                    <div class="head_title">
+                        <h2 class="text-uppercase">To get you <strong>started</strong></h2>
+                    </div>
+                    <p class="black-p-text">Why don't you grab my WordPress & Hosting lessons...absolutely <strong>FREE!</strong></p>
+                    <p class="black-p-text">In these lessons you will learn to use the power of WordPress - the most used content management system on the planet.</p>
+                    <p class="black-p-text">Start by building your own website and there charge others people and businesses to do it for them.</p>
+                    <a href="/free-course/" 
+                        class="btn btn_crash_course">CLICK HERE TO FIND OUT MORE</a>
+                </div> <!-- / end row -->                
+            </section>
 
             <!--Services Section
             <section id="service" class="service bg-white roomy-70">
@@ -436,7 +450,7 @@
                             <div class="col-md-3">
                                 <div class="widget_item widget_about">
                                     <h5 class="text-white">About Me</h5>
-                                    <p class="m-top-30">Julian Hansby, Professional Web Developer, out of the heart of Cape Town. Ready to share some awesome skills!</p>
+                                    <p class="m-top-30">Julian Hansby, Web Developer, Digital Marketer, Entrepreneur, passionate about online teaching!</p>
                                 </div>
                             </div>
  
@@ -458,7 +472,8 @@
                     </div>
                 </div>
                 <div class="container p-top-40">
-                    <a href="/assets/pdf/TermsandConditions.pdf" target="_blank">Terms &amp; Conditions</a>
+                    <a href="/assets/pdf/TermsandConditions.pdf" target="_blank">Terms &amp; Conditions</a> | 
+                    <a href="/privacy-policy/" target="_blank">Privacy Policy</a>
                 </div>
             </footer>
         </div>
